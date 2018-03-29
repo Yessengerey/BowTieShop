@@ -10,6 +10,7 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 
 // Custom Components
 import About from './containers/about.jsx';
+import Main from './containers/main.jsx';
 
 export default class App extends Component {
   constructor(props) {
@@ -18,14 +19,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-        <nav>
-          <Link to="/about">О нас</Link>
-        </nav>
-        <div>
-          <Route path="/about" component={About}/>
-        </div>
-      </div>
+      <Main style={{height: '100%'}}/>
     )
   }
 }

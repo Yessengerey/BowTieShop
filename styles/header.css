@@ -1,0 +1,19 @@
+.header_main_container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 1px 10px #848484;
+}
+
+.header_left {
+  width: 45%;
+}
+
+.header_center {
+  width: 10%;
+}
+
+.header_right {
+  width: 45%;
+}
