@@ -17,11 +17,7 @@ export default class Main extends Component {
     return (
       <div className={styles.main_outer_container}>
         <Header />
-        {/* <div className={styles.main_inner_container}>
-          <section className={styles.parallax_section}>
-            <h1>Such Adorableness</h1>
-          </section>
-        </div> */}
+          <h1>MAIN PAGE</h1>
         <Footer />
       </div>
     )
