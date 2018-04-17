@@ -32,15 +32,33 @@ export default class Header extends Component {
           <div className={styles.header_right_menu_outer_container}>
 
             <div className={styles.header_right_menu_item}>
-              <Link to='/'>Главная</Link>
+              <Link to='/' className={styles.link} onClick={() => {
+                this.props.nextSlide(0);
+              }}>
+                Главная
+              </Link>
             </div>
 
-            <div className={styles.header_right_menu_item}>
-              <Link to='/shop'>Магазин</Link>
+            <div
+              className={styles.header_right_menu_item}>
+              <Link to='/shop'
+                className={styles.link}
+                onClick={() => {
+                  this.props.nextSlide(1);
+                }}>
+                Магазин
+              </Link>
             </div>
 
-            <div className={styles.header_right_menu_item}>
-              <Link to='/about'>О нас</Link>
+            <div
+              className={styles.header_right_menu_item}>
+              <Link to='/about'
+                className={styles.link}
+                onClick={() => {
+                  this.props.nextSlide(2);
+                }}>
+                О нас
+              </Link>
             </div>
 
           </div>

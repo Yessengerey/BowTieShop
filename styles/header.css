@@ -28,5 +28,10 @@
 }
 
 .header_right_menu_item {
+}
+
+.link {
   padding: 10px;
+  height: 100%;
+  width: 100%
 }

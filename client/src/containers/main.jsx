@@ -16,9 +16,7 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Header />
-          <h1>MAIN PAGE</h1>
-        <Footer />
+        <h1>MAIN PAGE</h1>
       </div>
     )
   }

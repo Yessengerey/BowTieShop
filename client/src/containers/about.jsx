@@ -12,9 +12,7 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        <Header/>
         <h1>HELLO About</h1>
-        <Footer/>
       </div>
     )
   }

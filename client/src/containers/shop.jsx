@@ -16,9 +16,7 @@ export default class Shop extends Component {
   render() {
     return (
       <div>
-        <Header />
-          <h1>SHOP PAGE</h1>
-        <Footer />
+        <h1>SHOP PAGE</h1>
       </div>
     )
   }
