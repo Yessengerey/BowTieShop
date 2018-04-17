@@ -1,4 +1,9 @@
-import React, { Component } from 'react';
+import React, {
+  Component
+} from 'react';
+
+// React Router
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import styles from '../../../styles/header.css';
 
@@ -27,15 +32,15 @@ export default class Header extends Component {
           <div className={styles.header_right_menu_outer_container}>
 
             <div className={styles.header_right_menu_item}>
-              Главная
+              <Link to='/'>Главная</Link>
             </div>
 
             <div className={styles.header_right_menu_item}>
-              Магазин
+              <Link to='/shop'>Магазин</Link>
             </div>
 
             <div className={styles.header_right_menu_item}>
-              О нас
+              <Link to='/about'>О нас</Link>
             </div>
 
           </div>

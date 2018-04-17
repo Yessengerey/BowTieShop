@@ -15,7 +15,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div className={styles.main_outer_container}>
+      <div>
         <Header />
           <h1>MAIN PAGE</h1>
         <Footer />

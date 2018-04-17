@@ -26,6 +26,10 @@ app.use(bodyParser.json());
 
 app.use('/', routes.main);
 
+app.use('/about', routes.about);
+
+app.use('/shop', routes.shop);
+
 app.listen(app.get('port'), (err) => {
   if (err) {
     throw err;
