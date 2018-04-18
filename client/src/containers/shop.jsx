@@ -13,7 +13,13 @@ export default class Shop extends Component {
     }
   }
 
+  componentWillMount() {
+    console.log('MOUNTED');
+    this.setState({});
+  }
+
   render() {
+    console.log('RENDERED');
     return (
       <div style={{backgroundColor: 'yellow'}}>
         <h1>SHOP PAGE</h1>
