@@ -11,7 +11,7 @@ export default class About extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: 'blue'}}>
         <h1>HELLO About</h1>
       </div>
     )

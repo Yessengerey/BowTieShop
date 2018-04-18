@@ -15,7 +15,7 @@ export default class Shop extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: 'yellow'}}>
         <h1>SHOP PAGE</h1>
       </div>
     )
